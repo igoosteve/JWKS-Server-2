@@ -150,21 +150,3 @@ connection.execute(
 ```
 
 Using parameterized queries separates SQL code from values and helps prevent SQL injection vulnerabilities.
-
-## Project Structure
-
-```text
-.
-├── app.py
-├── keys.py
-├── test_app.py
-├── requirements.txt
-├── README.md
-└── .gitignore
-```
-
-The SQLite database is generated at runtime and should not be committed to source control.
-
-## License
-
-This project was created for educational purposes.
